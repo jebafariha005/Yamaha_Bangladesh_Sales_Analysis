@@ -1,0 +1,4941 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "yamaha_bangladesh_sales_sales_analysis.model_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "model_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "model name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "model_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "model nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "model title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "model label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "model tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Model": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.division": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "division"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "division": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "separation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dissection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detachment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disunion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "partition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "disagreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "schism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "disharmony": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "dissonance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "split": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.payment_method": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "payment_method"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment method": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_method": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "method": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment technique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "technique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payment way": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment process": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.dealer_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "dealer_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dealer name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dealer_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dealer nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Dealer": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "district"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.series": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "series"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "series": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "succession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "progression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "run": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "string": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cycle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.campaign": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "campaign"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campaign": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "crusade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "drive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fight": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "battle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "war": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "yamaha_bangladesh_sales sales_analysis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yamaha_bangladesh_sale sales_analysis": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.sale_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "sale_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sale id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sale identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sale identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sale credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "vending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "retailing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.sale_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "sale_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sale date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "sale moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sale period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.dealer_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "dealer_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dealer id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dealer_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dealer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dealer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dealer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dealer credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.customer_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "customer_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.model_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "model_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "model id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "model_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "model identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "model identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "model identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "model credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.engine_cc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "engine_cc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "engine cc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engine_cc": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.unit_price_bdt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "unit_price_bdt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit price bdt": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit_price_bdt": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "module price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "element price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "entity price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "group price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "component price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "constituent price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "item price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "part price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "section price bdt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.discount_bdt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "discount_bdt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discount bdt": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discount_bdt": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.gross_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "gross_revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gross revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gross_revenue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gross income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "gross profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gross turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gross yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "aggregate revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "overall revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.net_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "net_revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "net revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "net_revenue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "net income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "net profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "net turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "net yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.dealer_latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Dealer Latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dealer latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "latitude": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dealer leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dealer freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dealer autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dealer liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dealer opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.dealer_longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Dealer Longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dealer longitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "longitude": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.total_net_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Total Net Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total net revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total net income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total net profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total net turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total net yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "aggregate net revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall net revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.total_gross_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Total Gross Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total gross revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total gross income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total gross profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total gross turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total gross yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "total aggregate revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.657
+			          }
+			        },
+			        {
+			          "total overall revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.657
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.total_unit_sold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Total Unit Sold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total unit sold": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total module sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total element sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total entity sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total group sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total component sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total constituent sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total item sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total part sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total section sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate unit sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.total_discount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Total Discount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total discount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discount": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate discount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall discount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total reduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total markdown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total concession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total deduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "reduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "markdown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "deduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.unique_customer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Unique Customer"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unique customer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "unique client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.discount_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Discount Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discount rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "discount degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discount amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.YoY_growth_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "YoY Growth %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YoY growth %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yoy growth percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yoy growth pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.previous_year_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Previous Year Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previous year revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "previous year income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "year income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "previous year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "previous year turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "previous year yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "year turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "year yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.total_orders": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Total Orders"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total orders": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "orders": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total guideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total preparation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "guideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "preparation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis.avg_order_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis",
+			          "ConceptualProperty": "Avg Order Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg order value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average order value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "avg order assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg order worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg order price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg order cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg order charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg order rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg order importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "avg order significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "avg order usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "date_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "date tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.month_year_sort": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "ConceptualProperty": "Month Year Sort"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year sort": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year sort": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mth year sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "month yr sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "month year category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "month year genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "month year species": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "month year variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "month year nature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "year category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.month_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date Table",
+			          "ConceptualProperty": "Month Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "yamaha_bangladesh_sales_sales_analysis_dealer_name_Deal_yamaha_bangladesh_sales_sales_analysis": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis.dealer_name": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.dealer_name"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.dealer_name"
+			            },
+			            "Verbs": [
+			              {
+			                "Deal": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "dealer_names_Deal_yamaha_bangladesh_sales_sales_analysises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.dealer_name"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dealer_names_have_yamaha_bangladesh_sales_sales_analysises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.dealer_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_dealer_names"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_in_district": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.district": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "yamaha_bangladesh_sales_sales_analysis.district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_are_in_districts"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_model_name": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.model_name": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.model_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.model_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_model_names"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_division": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.division": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.division"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.division"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_divisions"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_payment_method": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.payment_method": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.payment_method"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.payment_method"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_payment_methods"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_district": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.district": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_districts"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_series": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.series": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.series"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.series"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_series"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_campaign": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.campaign": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.campaign"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.campaign"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_campaigns"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_category": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.category": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_categories"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_sale_id": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.sale_id": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.sale_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.sale_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_sale_ids"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_sale_date": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.sale_date": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.sale_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.sale_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_sale_dates"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_dealer_id": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.dealer_id": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.dealer_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.dealer_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_dealer_ids"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_customer_id": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.customer_id": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.customer_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.customer_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_customer_ids"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_model_id": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.model_id": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.model_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.model_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_model_ids"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_engine_cc": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.engine_cc": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.engine_cc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.engine_cc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_engine_cc"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.quantity": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_quantities"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_unit_price_bdt": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.unit_price_bdt": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.unit_price_bdt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.unit_price_bdt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_unit_price_bdts"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_discount_bdt": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.discount_bdt": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.discount_bdt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.discount_bdt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_discount_bdts"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_gross_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.gross_revenue": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.gross_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.gross_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_gross_revenues"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_net_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.net_revenue": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.net_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.net_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_net_revenues"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_dealer_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.dealer_latitude": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.dealer_latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.dealer_latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_dealer_latitudes"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_dealer_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.dealer_longitude": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.dealer_longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.dealer_longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_dealer_longitudes"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_total_net_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.total_net_revenue": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.total_net_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.total_net_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_total_net_revenue"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_total_gross_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.total_gross_revenue": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.total_gross_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.total_gross_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_total_gross_revenue"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_total_unit_sold": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.total_unit_sold": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.total_unit_sold"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.total_unit_sold"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_total_unit_sold"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_total_discount": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.total_discount": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.total_discount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.total_discount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_total_discount"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_unique_customer": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.unique_customer": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.unique_customer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.unique_customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_unique_customer"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_discount_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.discount_rate": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.discount_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.discount_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_discount_rate"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_YoY_growth_": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.YoY_growth_": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.YoY_growth_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.YoY_growth_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_YoY_growth_"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_previous_year_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.previous_year_revenue": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.previous_year_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.previous_year_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_previous_year_revenue"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_total_orders": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.total_orders": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.total_orders"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.total_orders"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_total_orders"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_avg_order_value": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "yamaha_bangladesh_sales_sales_analysis.avg_order_value": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis.avg_order_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis.avg_order_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_avg_order_value"
+			        }
+			      ]
+			    },
+			    "date_table_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.date": {
+			          "Target": {
+			            "Entity": "date_table.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_dates"
+			        }
+			      ]
+			    },
+			    "date_table_has_month_year_sort": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.month_year_sort": {
+			          "Target": {
+			            "Entity": "date_table.month_year_sort"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.month_year_sort"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_month_year_sorts"
+			        }
+			      ]
+			    },
+			    "date_table_has_month_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.month_year": {
+			          "Target": {
+			            "Entity": "date_table.month_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.month_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_month_years"
+			        }
+			      ]
+			    },
+			    "yamaha_bangladesh_sales_sales_analysis_has_date_table": {
+			      "Binding": {
+			        "ConceptualEntity": "yamaha_bangladesh_sales sales_analysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "yamaha_bangladesh_sales_sales_analysis": {
+			          "Target": {
+			            "Entity": "yamaha_bangladesh_sales_sales_analysis"
+			          }
+			        },
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            },
+			            "Object": {
+			              "Role": "date_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "yamaha_bangladesh_sales_sales_analysises_have_date_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "yamaha_bangladesh_sales_sales_analysis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_yamaha_bangladesh_sales_sales_analysises"
+			        }
+			      ]
+			    },
+			    "date_table_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date": {
+			          "Target": {
+			            "Entity": "date_table.date"
+			          }
+			        },
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "date_table_date_date_hierarchy_has_date_table_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.year": {
+			          "Target": {
+			            "Entity": "date_table.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "date_table_date_date_hierarchy_has_date_table_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.quarter": {
+			          "Target": {
+			            "Entity": "date_table.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "date_table_date_date_hierarchy_has_date_table_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.month": {
+			          "Target": {
+			            "Entity": "date_table.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "date_table_date_date_hierarchy_has_date_table_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Date Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.day": {
+			          "Target": {
+			            "Entity": "date_table.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

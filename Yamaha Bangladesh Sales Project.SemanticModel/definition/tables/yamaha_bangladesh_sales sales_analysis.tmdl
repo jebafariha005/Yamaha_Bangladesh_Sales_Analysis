@@ -1,0 +1,421 @@
+table 'yamaha_bangladesh_sales sales_analysis'
+	lineageTag: 8224e3b4-f92e-49f6-a14f-295e027b6016
+
+	measure 'Total Net Revenue' = SUM('yamaha_bangladesh_sales sales_analysis'[net_revenue])
+		formatString: "৳"#,##0
+		lineageTag: 463ebd81-ece0-4d59-a179-857665ada46f
+
+	measure 'Total Gross Revenue' = SUM('yamaha_bangladesh_sales sales_analysis'[gross_revenue])
+		formatString: "৳"#,##0
+		lineageTag: 7ef1074f-2cb6-4fbc-82e4-02f5cbd006f6
+
+	measure 'Total Unit Sold' = SUM('yamaha_bangladesh_sales sales_analysis'[quantity])
+		formatString: 0
+		lineageTag: e50631b5-6723-4e21-9490-982b23c64491
+
+	measure 'Total Discount' = SUM('yamaha_bangladesh_sales sales_analysis'[discount_bdt])
+		formatString: "৳"#,##0
+		lineageTag: 67c1d44b-0f8e-4a34-9f4d-3c6683519760
+
+	measure 'Unique Customer' = DISTINCTCOUNT('yamaha_bangladesh_sales sales_analysis'[customer_id])
+		formatString: 0
+		lineageTag: a6d2a77a-9e2b-4293-9bb1-870580421af8
+
+	measure 'Discount Rate' = DIVIDE([Total Discount],[Total Gross Revenue],0)
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 0a6d3f22-af1b-49a4-b694-3449b2d5ad50
+
+	measure 'YoY Growth %' = DIVIDE([Total Net Revenue]-[Previous Year Revenue],[Previous Year Revenue],0)
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 01275e6e-ef2a-4b41-9a01-31c969e28d93
+
+	measure 'Previous Year Revenue' = CALCULATE([Total Net Revenue],SAMEPERIODLASTYEAR('Date Table'[Date]))
+		formatString: "৳"#,##0
+		lineageTag: d18e0212-675b-45b7-a048-ee7861cd2130
+
+	measure 'Total Orders' = COUNTROWS('yamaha_bangladesh_sales sales_analysis')
+		formatString: 0
+		lineageTag: 8a1b6b23-2f2d-4e77-9e0a-1a9e5c2f6b40
+
+	measure 'Avg Order Value' = DIVIDE([Total Net Revenue],[Total Orders],0)
+		formatString: "৳"#,##0
+		lineageTag: 3c7a9e10-4c5b-4a2e-8f1d-6b7e0a2d5c91
+
+	column sale_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 169e4cd3-7b64-4492-a8f7-42646afb3ad2
+		summarizeBy: sum
+		sourceColumn: sale_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sale_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1b60d7e3-5049-4808-8866-cdf3a4584ec4
+		summarizeBy: none
+		sourceColumn: sale_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column dealer_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 06a65a96-3dda-4417-942a-0f972d64bcfe
+		summarizeBy: sum
+		sourceColumn: dealer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column dealer_name
+		dataType: string
+		lineageTag: 6539a8c6-58c3-4b4e-b953-33482630fa31
+		summarizeBy: none
+		sourceColumn: dealer_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 3ea16464-3a55-4767-8e37-478bfdf0f057
+		summarizeBy: sum
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column model_id
+		dataType: int64
+		formatString: 0
+		lineageTag: cecc4b9e-3f07-476a-91a9-5672d008c56b
+		summarizeBy: sum
+		sourceColumn: model_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column model_name
+		dataType: string
+		lineageTag: 461d5510-518d-433a-9265-72c6b5ddfa6b
+		summarizeBy: none
+		sourceColumn: model_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column series
+		dataType: string
+		lineageTag: d2e08d90-460b-4ae9-9b52-dc434a250c76
+		summarizeBy: none
+		sourceColumn: series
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: ffa4913b-3c73-4d42-9199-adaa8c4be5e6
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column engine_cc
+		dataType: int64
+		formatString: 0
+		lineageTag: 393d4388-47ce-4601-92f0-55b6510928aa
+		summarizeBy: sum
+		sourceColumn: engine_cc
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: ec8b071a-400f-48ae-90b2-4820dff5f4b3
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price_bdt
+		dataType: double
+		lineageTag: 8c5fb3cf-6741-4d7f-bf39-3c85bc9988f9
+		summarizeBy: sum
+		sourceColumn: unit_price_bdt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column discount_bdt
+		dataType: double
+		lineageTag: 89cd8601-5ff5-4a8d-94b1-bfe69de3e874
+		summarizeBy: sum
+		sourceColumn: discount_bdt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_revenue
+		dataType: double
+		lineageTag: 7756b4e9-fbdc-48ab-a787-d8454f26532b
+		summarizeBy: sum
+		sourceColumn: gross_revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column net_revenue
+		dataType: double
+		lineageTag: 56583a12-1dca-4628-9f6f-5e9a261d0560
+		summarizeBy: sum
+		sourceColumn: net_revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column payment_method
+		dataType: string
+		lineageTag: c4186043-30d8-4cf8-826c-976cdecbbccc
+		summarizeBy: none
+		sourceColumn: payment_method
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign
+		dataType: string
+		lineageTag: d9403d9d-e7db-4689-b901-febbb53a5bac
+		summarizeBy: none
+		sourceColumn: campaign
+
+		annotation SummarizationSetBy = Automatic
+
+	column division
+		dataType: string
+		lineageTag: c87c3632-34de-46b0-a738-b2c57c57bca2
+		summarizeBy: none
+		sourceColumn: division
+
+		annotation SummarizationSetBy = Automatic
+
+	column district
+		dataType: string
+		lineageTag: 37733720-e601-456a-94b2-90adddec355a
+		summarizeBy: none
+		sourceColumn: district
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dealer Latitude' =
+			
+			COALESCE(
+			    SWITCH(
+			        'yamaha_bangladesh_sales sales_analysis'[district],
+			        "Dhaka", 23.8103,
+			    "Faridpur", 23.6070,
+			    "Gazipur", 23.9999,
+			    "Gopalganj", 23.0050,
+			    "Kishoreganj", 24.4449,
+			    "Madaripur", 23.1641,
+			    "Manikganj", 23.8644,
+			    "Munshiganj", 23.5422,
+			    "Narayanganj", 23.6238,
+			    "Narsingdi", 23.9322,
+			    "Rajbari", 23.7574,
+			    "Shariatpur", 23.2423,
+			    "Tangail", 24.2513,
+			    "Bandarban", 22.1953,
+			    "Brahmanbaria", 23.9571,
+			    "Chandpur", 23.2333,
+			    "Chattogram", 22.3569,
+			    "Chittagong", 22.3569,
+			    "Cumilla", 23.4607,
+			    "Comilla", 23.4607,
+			    "Cox's Bazar", 21.4272,
+			    "Coxs Bazar", 21.4272,
+			    "Feni", 23.0159,
+			    "Khagrachhari", 23.1193,
+			    "Lakshmipur", 22.9440,
+			    "Noakhali", 22.8696,
+			    "Rangamati", 22.6533,
+			    "Bogura", 24.8465,
+			    "Bogra", 24.8465,
+			    "Joypurhat", 25.0968,
+			    "Naogaon", 24.7936,
+			    "Natore", 24.4206,
+			    "Chapainawabganj", 24.5965,
+			    "Nawabganj", 24.5965,
+			    "Pabna", 24.0064,
+			    "Rajshahi", 24.3745,
+			    "Sirajganj", 24.4533,
+			    "Bagerhat", 22.6602,
+			    "Chuadanga", 23.6402,
+			    "Jashore", 23.1667,
+			    "Jessore", 23.1667,
+			    "Jhenaidah", 23.5448,
+			    "Khulna", 22.8456,
+			    "Kushtia", 23.9013,
+			    "Magura", 23.4855,
+			    "Meherpur", 23.7622,
+			    "Narail", 23.1725,
+			    "Satkhira", 22.7085,
+			    "Barguna", 22.0953,
+			    "Barishal", 22.7010,
+			    "Barisal", 22.7010,
+			    "Bhola", 22.6859,
+			    "Jhalokati", 22.6406,
+			    "Patuakhali", 22.3596,
+			    "Pirojpur", 22.5841,
+			    "Habiganj", 24.3745,
+			    "Moulvibazar", 24.4829,
+			    "Sunamganj", 25.0658,
+			    "Sylhet", 24.8949,
+			    "Dinajpur", 25.6279,
+			    "Gaibandha", 25.3288,
+			    "Kurigram", 25.8054,
+			    "Lalmonirhat", 25.9923,
+			    "Nilphamari", 25.9312,
+			    "Panchagarh", 26.3411,
+			    "Rangpur", 25.7439,
+			    "Thakurgaon", 26.0336,
+			    "Jamalpur", 24.9375,
+			    "Mymensingh", 24.7471,
+			    "Netrokona", 24.8697,
+			    "Sherpur", 25.0197,
+			    BLANK()
+			    ),
+			    SWITCH(
+			        'yamaha_bangladesh_sales sales_analysis'[division],
+			        "Dhaka", 23.8103,
+			        "Chattogram", 22.3569,
+			        "Chittagong", 22.3569,
+			        "Rajshahi", 24.3745,
+			        "Khulna", 22.8456,
+			        "Barishal", 22.7010,
+			        "Barisal", 22.7010,
+			        "Sylhet", 24.8949,
+			        "Rangpur", 25.7439,
+			        "Mymensingh", 24.7471,
+			        BLANK()
+			    )
+			)
+		dataType: double
+		lineageTag: d297ea0e-71d3-4d76-ba7b-3a9bc15066d7
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dealer Longitude' =
+			
+			COALESCE(
+			    SWITCH(
+			        'yamaha_bangladesh_sales sales_analysis'[district],
+			        "Dhaka", 90.4125,
+			    "Faridpur", 89.8429,
+			    "Gazipur", 90.4203,
+			    "Gopalganj", 89.8266,
+			    "Kishoreganj", 90.7766,
+			    "Madaripur", 90.1897,
+			    "Manikganj", 90.0047,
+			    "Munshiganj", 90.5305,
+			    "Narayanganj", 90.5000,
+			    "Narsingdi", 90.7150,
+			    "Rajbari", 89.6444,
+			    "Shariatpur", 90.4348,
+			    "Tangail", 89.9167,
+			    "Bandarban", 92.2183,
+			    "Brahmanbaria", 91.1119,
+			    "Chandpur", 90.6667,
+			    "Chattogram", 91.7832,
+			    "Chittagong", 91.7832,
+			    "Cumilla", 91.1809,
+			    "Comilla", 91.1809,
+			    "Cox's Bazar", 92.0058,
+			    "Coxs Bazar", 92.0058,
+			    "Feni", 91.3976,
+			    "Khagrachhari", 91.9847,
+			    "Lakshmipur", 90.8282,
+			    "Noakhali", 91.0995,
+			    "Rangamati", 92.1734,
+			    "Bogura", 89.3773,
+			    "Bogra", 89.3773,
+			    "Joypurhat", 89.0227,
+			    "Naogaon", 88.9318,
+			    "Natore", 88.9866,
+			    "Chapainawabganj", 88.2775,
+			    "Nawabganj", 88.2775,
+			    "Pabna", 89.2372,
+			    "Rajshahi", 88.6042,
+			    "Sirajganj", 89.7006,
+			    "Bagerhat", 89.7895,
+			    "Chuadanga", 88.8410,
+			    "Jashore", 89.2167,
+			    "Jessore", 89.2167,
+			    "Jhenaidah", 89.1539,
+			    "Khulna", 89.5403,
+			    "Kushtia", 89.1206,
+			    "Magura", 89.4198,
+			    "Meherpur", 88.6318,
+			    "Narail", 89.5127,
+			    "Satkhira", 89.0714,
+			    "Barguna", 90.1121,
+			    "Barishal", 90.3535,
+			    "Barisal", 90.3535,
+			    "Bhola", 90.6482,
+			    "Jhalokati", 90.1987,
+			    "Patuakhali", 90.3296,
+			    "Pirojpur", 89.9720,
+			    "Habiganj", 91.4155,
+			    "Moulvibazar", 91.7774,
+			    "Sunamganj", 91.3950,
+			    "Sylhet", 91.8687,
+			    "Dinajpur", 88.6332,
+			    "Gaibandha", 89.5285,
+			    "Kurigram", 89.6362,
+			    "Lalmonirhat", 89.2847,
+			    "Nilphamari", 88.8560,
+			    "Panchagarh", 88.5541,
+			    "Rangpur", 89.2752,
+			    "Thakurgaon", 88.4616,
+			    "Jamalpur", 89.9370,
+			    "Mymensingh", 90.4203,
+			    "Netrokona", 90.7280,
+			    "Sherpur", 90.0153,
+			    BLANK()
+			    ),
+			    SWITCH(
+			        'yamaha_bangladesh_sales sales_analysis'[division],
+			        "Dhaka", 90.4125,
+			        "Chattogram", 91.7832,
+			        "Chittagong", 91.7832,
+			        "Rajshahi", 88.6042,
+			        "Khulna", 89.5403,
+			        "Barishal", 90.3535,
+			        "Barisal", 90.3535,
+			        "Sylhet", 91.8687,
+			        "Rangpur", 89.2752,
+			        "Mymensingh", 90.4203,
+			        BLANK()
+			    )
+			)
+		dataType: double
+		lineageTag: c437be68-d66a-45bb-9bbb-6c15d7f42303
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'yamaha_bangladesh_sales sales_analysis' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("127.0.0.1:3306", "yamaha_bangladesh_sales", [ReturnSingleDatabase=true]),
+				    yamaha_bangladesh_sales_sales_analysis = Source{[Schema="yamaha_bangladesh_sales",Item="sales_analysis"]}[Data]
+				in
+				    yamaha_bangladesh_sales_sales_analysis
+
+	annotation PBI_ResultType = Table
+

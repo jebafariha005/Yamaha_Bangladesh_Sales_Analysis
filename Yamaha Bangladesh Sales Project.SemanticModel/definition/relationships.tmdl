@@ -1,0 +1,9 @@
+relationship 578f854f-508f-4787-8a92-2a60d1dce7c6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Date Table'.Date
+	toColumn: LocalDateTable_88608e2a-a1d3-4b78-8268-ad71f8886937.Date
+
+relationship eac1b5c7-86e6-e9ae-730d-e71e3df434cc
+	fromColumn: 'yamaha_bangladesh_sales sales_analysis'.sale_date
+	toColumn: 'Date Table'.Date
+

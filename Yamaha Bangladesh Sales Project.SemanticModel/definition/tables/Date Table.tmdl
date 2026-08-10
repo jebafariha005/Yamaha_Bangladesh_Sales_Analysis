@@ -1,0 +1,39 @@
+table 'Date Table'
+	lineageTag: d1326273-c2ab-4b96-b165-152ff5c4cf5a
+
+	column Date
+		formatString: General Date
+		lineageTag: bc12ef34-7d88-42e6-af48-a38f1d1fba4f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: 578f854f-508f-4787-8a92-2a60d1dce7c6
+			defaultHierarchy: LocalDateTable_88608e2a-a1d3-4b78-8268-ad71f8886937.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Year Sort' = YEAR('Date Table'[Date]) * 100 + MONTH('Date Table'[Date])
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f2e4a91-3d6c-4b8a-9e1f-2c5a8d6e0b73
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Year' = FORMAT('Date Table'[Date], "MMM yyyy")
+		dataType: string
+		lineageTag: 9d4c1f52-6a8e-4c3b-a7d0-1f6e9b2c4a85
+		summarizeBy: none
+		sortByColumn: 'Month Year Sort'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Date Table' = calculated
+		mode: import
+		source = CALENDAR(MIN('yamaha_bangladesh_sales sales_analysis'[sale_date]),MAX('yamaha_bangladesh_sales sales_analysis'[sale_date]))
+
+	annotation PBI_Id = bf24b9db332a433dbc6f6c7b45e53b82
+

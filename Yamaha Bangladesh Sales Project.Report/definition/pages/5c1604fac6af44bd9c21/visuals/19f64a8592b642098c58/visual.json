@@ -1,0 +1,137 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "19f64a8592b642098c58",
+  "position": {
+    "x": 8,
+    "y": 210,
+    "z": 3000,
+    "height": 500,
+    "width": 1264,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "map",
+    "query": {
+      "queryState": {
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "yamaha_bangladesh_sales sales_analysis"
+                    }
+                  },
+                  "Property": "dealer_name"
+                }
+              },
+              "queryRef": "yamaha_bangladesh_sales sales_analysis.dealer_name",
+              "nativeQueryRef": "Dealer",
+              "active": true,
+              "displayName": "Dealer"
+            }
+          ]
+        },
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "yamaha_bangladesh_sales sales_analysis"
+                    }
+                  },
+                  "Property": "Total Net Revenue"
+                }
+              },
+              "queryRef": "yamaha_bangladesh_sales sales_analysis.Total Net Revenue",
+              "nativeQueryRef": "Total Net Revenue"
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "yamaha_bangladesh_sales sales_analysis"
+                    }
+                  },
+                  "Property": "Total Net Revenue"
+                }
+              },
+              "queryRef": "yamaha_bangladesh_sales sales_analysis.Total Net Revenue",
+              "nativeQueryRef": "Total Net Revenue"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "yamaha_bangladesh_sales sales_analysis"
+                    }
+                  },
+                  "Property": "Total Unit Sold"
+                }
+              },
+              "queryRef": "yamaha_bangladesh_sales sales_analysis.Total Unit Sold",
+              "nativeQueryRef": "Total Unit Sold"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "yamaha_bangladesh_sales sales_analysis"
+                    }
+                  },
+                  "Property": "Dealer Longitude"
+                }
+              },
+              "queryRef": "yamaha_bangladesh_sales sales_analysis.Dealer Longitude",
+              "nativeQueryRef": "Dealer Longitude",
+              "active": true,
+              "displayName": "Longitude"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "yamaha_bangladesh_sales sales_analysis"
+                    }
+                  },
+                  "Property": "Dealer Latitude"
+                }
+              },
+              "queryRef": "yamaha_bangladesh_sales sales_analysis.Dealer Latitude",
+              "nativeQueryRef": "Dealer Latitude",
+              "active": true,
+              "displayName": "Latitude"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "bubbles": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

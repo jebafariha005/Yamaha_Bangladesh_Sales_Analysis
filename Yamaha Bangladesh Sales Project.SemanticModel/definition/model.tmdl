@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["yamaha_bangladesh_sales sales_analysis"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'yamaha_bangladesh_sales sales_analysis'
+ref table DateTableTemplate_59c7e7c5-936d-4bd7-8764-3a5e0ae1f3ca
+ref table 'Date Table'
+ref table LocalDateTable_88608e2a-a1d3-4b78-8268-ad71f8886937
+
+ref cultureInfo en-US
+
