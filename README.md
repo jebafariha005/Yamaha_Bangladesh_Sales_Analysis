@@ -1,5 +1,5 @@
 # 🏍️ Yamaha Bangladesh Sales Performance Analysis
-![Yamaha Bangladesh Sales Performance Dashboard](Performance%20Overview.png)
+![Yamaha Bangladesh Sales Performance Dashboard](image.png)
 
 ## 📊 Project Overview
 
